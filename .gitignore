@@ -1,0 +1,21 @@
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+
+# Backend Maven build output
+backend/target/
+
+# IntelliJ IDEA
+backend/.idea/
+
+# Maven wrapper cache
+backend/.mvn/
+
+# Spring template docs
+backend/HELP.md
+
+# OS Files
+.DS_Store
+Thumbs.db
