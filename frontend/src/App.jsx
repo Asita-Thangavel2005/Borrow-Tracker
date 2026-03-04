@@ -30,7 +30,11 @@ function App() {
   return (
     <div>
       <h1>Borrow Tracker</h1>
-      <button onClick={logout}>Logout</button>
+      <div className="center-box">
+    <button className="logout" onClick={logout}>
+        Logout
+    </button>
+</div>
       <BorrowForm refresh={() => window.location.reload()} />
       <BorrowList />
     </div>

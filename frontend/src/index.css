@@ -1,0 +1,101 @@
+/* Global Style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #fce4ec, #e3f2fd);
+    margin: 0;
+}
+
+/* Center Card Layout */
+div {
+    box-sizing: border-box;
+}
+
+/* Form Container */
+form {
+    width: 320px;
+    margin: 60px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Heading */
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ff80ab;
+    box-shadow: 0 0 8px rgba(255,128,171,0.4);
+}
+
+/* Buttons */
+button {
+    width: 20%;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ff80ab, #64b5f6);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Center button container */
+.center-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* Small secondary button style */
+.secondary-btn {
+    width: 180px;
+    background: linear-gradient(135deg, #64b5f6, #9575cd);
+}
+
+button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+/* Logout Button */
+button.logout {
+    width: 120px;
+    background: linear-gradient(135deg, #ef5350, #ff8a80);
+}
+
+/* Borrow Tracker Main Box */
+.main-container {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+/* List Cards */
+.borrow-card {
+    background: white;
+    border-radius: 14px;
+    padding: 15px;
+    margin: 12px 0;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}

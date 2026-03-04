@@ -52,7 +52,11 @@ function Login({ setLoggedIn, switchToRegister }) {
         <button type="submit">Login</button>
       </form>
 
-      <button onClick={switchToRegister}>Create Account</button>
+      <div className="center-box">
+    <button className="secondary-btn" onClick={switchToRegister}>
+        Create Account
+    </button>
+</div>
     </div>
   );
 }
